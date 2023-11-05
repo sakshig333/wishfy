@@ -13,10 +13,10 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/cart" element={<Cart />} />
-          <Route path="/checkout" element={<Checkout />} />
-          <Route path="/product/:productId" element={<ProductDetail />} />
-          <Route path="/thankyou" element={<ThankYou />} />
+          <Route exact path="/cart" element={<Cart />} />
+          <Route exact path="/checkout" element={<Checkout />} />
+          <Route exact path="/product/:productId" element={<ProductDetail />} />
+          <Route exact path="/thankyou" element={<ThankYou />} />
         </Routes>
       </div>
     </Router>
