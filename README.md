@@ -1,1 +1,2 @@
 # wishfy
+npm run dev
